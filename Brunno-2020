@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<title>Fiesta Nacional del Dorado</title>
+		<!-- Change these Google fonts with your own choice -->
+
+		<link href="https://fonts.googleapis.com/css?family=Chivo:700|Overpass:400,700&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="C:\Users\Bruno\Desktop\Facultad/style.css">
+        </head>
+	<body>
+	  <!-- Banner section -->
+	  <div class="titulo"> 
+      <h1>FIESTA NACIONAL DEL DORADO</h1>
+      <span>17 de Agosto dia Nacional del Dorado</span>
+      <p>Mas informaci&oacute;n en nuestra web</p>
+      <a href="https://sites.google.com/site/coolturizzate/festivales/fiesta-nacional-del-dorado" target="_blank" class="boton">Fiesta del Dorado</a>
+
+  </div>
+	 
+	  <!-- Cards section -->
+	  <div class="Todo-carta">
+	  	<h3>Rio Paran&aacute;</h3>
+
+	  	<div class="Cartas">
+
+	 <!--carta corrientes-->
+	 <div class="carta-rio">
+	 	<img src="C:\Users\Bruno\Pictures/corrientes.jpg">
+	 	<h4>Corrientes</h4>
+	 	
+	 </div>
+      
+      <!--carta rosario-->
+      <div class="carta-rio">
+      	<img src="C:\Users\Bruno\Pictures/Rosario.jpg">
+      	<h4>Rosario, Santa F&eacute;</h4>
+      	
+      	</div>
+	  		</div>
+
+	  </div>
+	  
+ <!-- Footer section -->
+ <footer class="footer">
+ 	<div class="footer-2">
+ 	<h6>Corrientes, Argentina</h6>
+ 	<div class="insta">
+ 	<h6>Redes Sociales: DORADOARGENTINO</h6>
+ 	<h6>Cel: 0800-1234</h6>
+ </div>
+ </div>
+ </footer>
+
+	  
+	</body>
+</html>
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<title>Fiesta Nacional del Dorado</title>
+		<!-- Change these Google fonts with your own choice -->
+
+		<link href="https://fonts.googleapis.com/css?family=Chivo:700|Overpass:400,700&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="C:\Users\Bruno\Desktop\Facultad/style.css">
+        </head>
+	<body>
+	  <!-- Banner section -->
+	  <div class="titulo"> 
+      <h1>FIESTA NACIONAL DEL DORADO</h1>
+      <span>17 de Agosto dia Nacional del Dorado</span>
+      <p>Mas informaci&oacute;n en nuestra web</p>
+      <a href="https://sites.google.com/site/coolturizzate/festivales/fiesta-nacional-del-dorado" target="_blank" class="boton">Fiesta del Dorado</a>
+
+  </div>
+	 
+	  <!-- Cards section -->
+	  <div class="Todo-carta">
+	  	<h3>Rio Paran&aacute;</h3>
+
+	  	<div class="Cartas">
+
+	 <!--carta corrientes-->
+	 <div class="carta-rio">
+	 	<img src="C:\Users\Bruno\Pictures/corrientes.jpg">
+	 	<h4>Corrientes</h4>
+	 	
+	 </div>
+      
+      <!--carta rosario-->
+      <div class="carta-rio">
+      	<img src="C:\Users\Bruno\Pictures/Rosario.jpg">
+      	<h4>Rosario, Santa F&eacute;</h4>
+      	
+      	</div>
+	  		</div>
+
+	  </div>
+	  
+ <!-- Footer section -->
+ <footer class="footer">
+ 	<div class="footer-2">
+ 	<h6>Corrientes, Argentina</h6>
+ 	<div class="insta">
+ 	<h6>Redes Sociales: DORADOARGENTINO</h6>
+ 	<h6>Cel: 0800-1234</h6>
+ </div>
+ </div>
+ </footer>
+
+	  
+	</body>
+</html>
+/*Write some CSS below */
+body {
+
+	font-family: Overpass; 
+	font-size: 20px;
+	margin: 0;
+	text-align: center;
+	
+}
+
+
+.titulo {
+
+background-image: url('C:/Users/Bruno/Pictures/Dorado-Landin.jpg');
+background-size: cover;
+background-position: center;
+padding: 70px;
+text-align: center; 
+height: : 50px;
+color: #ffffff;
+}
+
+.boton {
+background-color: #2f54c4;
+color: white; 
+padding: 12px 20px;
+border-radius: 8px;
+display: inline-block;
+text-decoration: none;
+transition: .3s;
+font-size: 20px;
+font-weight: bold;
+border: none;
+
+}
+
+.boton:hover {
+background-color: #1097eb;
+color: white;
+}
+
+
+
+html {
+	background-color: #f0f2f5;
+}
+
+p {
+
+	opacity: 0.7;
+}
+.footer {
+   
+   background: #21211e;
+   color: white; 
+   padding: 1px 0px;
+   text-align: left;
+}
+.footer-2 {
+	margin: 8px;
+}
+.insta {
+	opacity: 0.5;
+}
+.todo-carta {
+	width: 10px;
+	height: 30px;
+	margin: 0px;
+	border-radius: 10px;
+	padding: 5px;
+}
+
+.carta-rio {
+
+background: white;
+box-shadow: 10px 10px 10px rgba(14, 15, 15);
+border-radius: 5px;
+padding: 5px;
+margin: 8px;
+
+
+}
+.carta-rio img {
+width: 200px;
+height: 200px;
+object-fit: cover;
+border-radius: 5px;
+border-image: 10px;
+
+}
+.carta-rio h4 {
+	margin-bottom: 10px;
+	text-align: left;
+}
+.Cartas {
+display: inline-grid;
+grid-template-columns: 1fr 1fr;
+grid-gap: 10px;
+border-radius: 10px;
+margin: 0 0 1rem;
+padding: 5px;
+
+
+
+
+
+
+}
+h3 {
+	text-align: center;
+	font-family: chivo;
+	text-decoration: underline;
+	margin: 10px;
+h1 {
+
+text-decoration: underline;
+height: 50px;
+
+
+}
